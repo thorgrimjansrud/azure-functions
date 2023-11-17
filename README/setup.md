@@ -60,6 +60,30 @@ _Deployment to resource group 'cloud-shell-storage-westeurope' failed. Additiona
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+Private account test:
+
+Same procedure as above.
+
+<mark style="color:red;">Error: "EventHub Namespace Network Rule Sets Operations are not allowed on FreeHubs".</mark>
+
+```json
+{
+    "status": "Failed",
+    "error": {
+        "code": "IotHubActivationFailed",
+        "message": "An internal error occurred while activating IotHub",
+        "details": [
+            {
+                "code": "IotHubActivationFailed",
+                "message": "EventHub Namespace Network Rule Sets Operations are not allowed on FreeHubs"
+            }
+        ]
+    }
+}
+```
+
+
+
 ### Register an IoT edge device
 
 
