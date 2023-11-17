@@ -10,9 +10,16 @@ First we need to setup an Azure CLI e.g. the [cloud shell](http://127.0.0.1:5000
 
 #### Cloud shell
 
+<mark style="color:red;">**Not tested yet..**</mark>
 
+```
+// Something like..
+az iot hub create --resource-group IoTWagoResource --name wago-edge-devices --sku F1 --partition-count 2
+```
 
 #### Web portal
+
+Test 1:
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -33,9 +40,16 @@ This failed with:
 }
 ```
 
-###
+test 2:
 
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+This failed with:
+
+_Deployment to resource group 'cloud-shell-storage-westeurope' failed. Additional details from the underlying API that might be helpful: At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-deployment-operations for usage details._
+
+```
+```
 
 ### Register an IoT edge device
 
