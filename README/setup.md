@@ -6,6 +6,10 @@
 
 <mark style="color:red;">Read below.</mark>
 
+### <mark style="color:red;">Posted here!!</mark>
+
+[<mark style="color:red;">https://learn.microsoft.com/en-us/answers/questions/1428798/error-in-creating-iot-hub-free-tier?page=1\&orderby=Helpful\&comment=answer-1363608#newest-answer-comment</mark>](https://learn.microsoft.com/en-us/answers/questions/1428798/error-in-creating-iot-hub-free-tier?page=1\&orderby=Helpful\&comment=answer-1363608#newest-answer-comment)
+
 ## Wago IOT agent
 
 [https://github.com/WAGO/azure-iot-edge](https://github.com/WAGO/azure-iot-edge)
