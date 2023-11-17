@@ -4,6 +4,8 @@
 
 <mark style="color:red;">Check with Wago if we can use Wago Azure domain and free tier to create IoT hub.</mark>
 
+<mark style="color:red;">Read below.</mark>
+
 ## Wago IOT agent
 
 [https://github.com/WAGO/azure-iot-edge](https://github.com/WAGO/azure-iot-edge)
@@ -25,7 +27,7 @@ az iot hub create --resource-group IoTWagoResource --name wago-edge-devices --sk
 
 Test 1:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 This failed with:
 
@@ -46,14 +48,17 @@ This failed with:
 
 test 2:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This failed with:
 
 _Deployment to resource group 'cloud-shell-storage-westeurope' failed. Additional details from the underlying API that might be helpful: At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-deployment-operations for usage details._
 
-```
-```
+<mark style="color:red;">Tried to move the resource to another new one but it also failed. Strange is now that after this failed the previous resource is set to "active" but also get an error...</mark>
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Register an IoT edge device
 
