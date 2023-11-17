@@ -1,5 +1,9 @@
 # Setup
 
+## Issues
+
+<mark style="color:red;">Check with Wago if we can use Wago Azure domain and free tier to create IoT hub.</mark>
+
 ## Wago IOT agent
 
 [https://github.com/WAGO/azure-iot-edge](https://github.com/WAGO/azure-iot-edge)
